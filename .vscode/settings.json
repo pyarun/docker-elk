@@ -1,0 +1,9 @@
+{
+    "sync-rsync.remote": "tc-elk:/root/app/elk",
+    "sync-rsync.local": "/Users/arun/Workspace/docker-elk",
+    "sync-rsync.exclude": [
+        // ".git",
+        ".vscode",
+        ".env"
+    ]
+}
